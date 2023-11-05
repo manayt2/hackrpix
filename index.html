@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <form id="addForm" name="addForm" method="post" >
+            <fieldset>
+               <legend>Semanty</legend>
+               <div class="formData">
+                  <label for="word">Word:</label>
+                  <div class="searchbar"><input type="text" size="50%" value="" name="word" id="word" /></div>
+                  <p class="def button" id="definitionButton">Definition</p>
+                  <p class="syn button" id="synonymButton">Synonym</p>
+                  <p class="stem button" id="assocPhraseButton">Associated Phrases</p>
+                  <p class="button" id="openNewTabButton">Google</p>
+                  <ul id = "out">
+                  </ul>
+               </div>
+            </fieldset>
+         </form>
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
